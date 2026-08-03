@@ -15,7 +15,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://mametransport.com"),
+  metadataBase: new URL("https://diankosylla.vercel.app"),
   title: "Dianko Sylla — Importateur de véhicules Chine Afrique | Mamé Transport",
   description:
     "Dianko Sylla, fondateur de Mamé Transport. Importation de véhicules et machines depuis la Chine vers l'Afrique. Bus, camions, tuktuk, scooters, 4x4. Basé en France, livraison au Sénégal.",
@@ -34,7 +34,7 @@ export const metadata: Metadata = {
     title: "Dianko Sylla — Mamé Transport",
     description:
       "Importateur de véhicules et machines depuis la Chine vers l'Afrique",
-    url: "https://mametransport.com",
+    url: "https://diankosylla.vercel.app",
     siteName: "Mamé Transport",
     locale: "fr_FR",
     type: "website",
