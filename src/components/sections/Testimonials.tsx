@@ -3,6 +3,11 @@
 import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 
+const videoTestimonials = [
+  { src: "/videos/temoignage-1.mp4", label: "Témoignage client" },
+  { src: "/videos/temoignage-2.mp4", label: "Témoignage client" },
+];
+
 // TODO: Remplacer par les vrais témoignages clients
 const testimonials = [
   {
@@ -33,7 +38,33 @@ export default function Testimonials() {
           Ce que disent mes clients
         </h2>
 
-        <div className="mt-14 grid grid-cols-1 gap-8 md:grid-cols-3">
+        <div className="mx-auto mt-12 grid max-w-2xl grid-cols-1 gap-8 sm:grid-cols-2">
+          {videoTestimonials.map((video, index) => (
+            <motion.div
+              key={video.src}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.5, delay: index * 0.1 }}
+              className="flex flex-col items-center"
+            >
+              <div className="aspect-9/16 w-full max-w-70 overflow-hidden rounded-2xl bg-black shadow-lg">
+                <video
+                  src={video.src}
+                  controls
+                  playsInline
+                  preload="metadata"
+                  className="h-full w-full object-cover"
+                />
+              </div>
+              <p className="mt-3 text-sm font-medium text-text-muted">
+                {video.label}
+              </p>
+            </motion.div>
+          ))}
+        </div>
+
+        <div className="mt-16 grid grid-cols-1 gap-8 md:grid-cols-3">
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={testimonial.name}
