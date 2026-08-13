@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { motion } from "framer-motion";
 import { Globe, Shield, Truck } from "lucide-react";
 import Button from "@/components/ui/Button";
@@ -33,14 +32,14 @@ export default function About() {
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="relative order-2 aspect-4/5 w-full overflow-hidden rounded-2xl shadow-xl shadow-primary/10 md:order-1 md:col-span-2"
+            className="relative order-2 aspect-4/5 w-full overflow-hidden rounded-2xl bg-black shadow-xl shadow-primary/10 md:order-1 md:col-span-2"
           >
-            <Image
-              src="/images/hero/sylla2.jpeg"
-              alt="Dianko Sylla, fondateur de Mamé Transport"
-              fill
-              sizes="(max-width: 768px) 100vw, 40vw"
-              className="object-cover object-top"
+            <video
+              src="/videos/diankosylla.mp4"
+              controls
+              playsInline
+              preload="metadata"
+              className="h-full w-full object-cover"
             />
           </motion.div>
 

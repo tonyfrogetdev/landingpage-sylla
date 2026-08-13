@@ -6,6 +6,7 @@ import { Star } from "lucide-react";
 const videoTestimonials = [
   { src: "/videos/temoignage-1.mp4", label: "Témoignage client" },
   { src: "/videos/temoignage-2.mp4", label: "Témoignage client" },
+  { src: "/videos/temoignage-3.mp4", label: "Témoignage client" },
 ];
 
 // TODO: Remplacer par les vrais témoignages clients
@@ -38,7 +39,7 @@ export default function Testimonials() {
           Ce que disent mes clients
         </h2>
 
-        <div className="mx-auto mt-12 grid max-w-2xl grid-cols-1 gap-8 sm:grid-cols-2">
+        <div className="mx-auto mt-12 grid max-w-3xl grid-cols-1 gap-8 sm:grid-cols-3">
           {videoTestimonials.map((video, index) => (
             <motion.div
               key={video.src}
