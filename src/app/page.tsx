@@ -13,7 +13,7 @@ const jsonLd = {
   "@context": "https://schema.org",
   "@type": "Person",
   name: "Dianko Sylla",
-  jobTitle: "Importateur de véhicules et machines depuis la Chine",
+  jobTitle: "Importateur de véhicules et équipements depuis la Chine",
   worksFor: {
     "@type": "Organization",
     name: "Mamé Transport",
@@ -26,7 +26,7 @@ const jsonLd = {
   },
   telephone: "+221710197055",
   description:
-    "Entrepreneur sénégalais basé en France, spécialisé dans l'importation de véhicules et machines depuis la Chine vers l'Afrique",
+    "Entrepreneur sénégalais basé en France, spécialisé dans l'importation de véhicules et équipements depuis la Chine vers l'Afrique",
 };
 
 export default function Home() {

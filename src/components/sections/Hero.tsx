@@ -34,7 +34,7 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.1 }}
             className="inline-block rounded-full bg-primary/10 px-4 py-1.5 text-sm font-medium text-primary"
           >
-            Importateur de véhicules depuis la Chine
+            Importateur de véhicules & équipements depuis la Chine
           </motion.span>
 
           <motion.h1
@@ -52,9 +52,10 @@ export default function Hero() {
             transition={{ duration: 0.5, delay: 0.2 }}
             className="mt-5 text-lg text-text-muted"
           >
-            Fondateur de Mamé Transport. J&apos;importe des véhicules et
-            machines de qualité depuis la Chine pour les entrepreneurs et
-            transporteurs africains.
+            Fondateur de Mamé Transport. Du transport à l&apos;énergie
+            solaire, j&apos;importe toutes sortes de machines et
+            d&apos;équipements de qualité depuis la Chine pour les
+            entrepreneurs africains.
           </motion.p>
 
           <motion.div

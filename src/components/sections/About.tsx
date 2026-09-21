@@ -12,8 +12,8 @@ const stats = [
   },
   {
     icon: Truck,
-    title: "Multi-véhicules",
-    description: "Bus, camions, tuktuk, scooters, 4x4",
+    title: "Multi-équipements",
+    description: "Bus, camions, tuktuk, scooters, 4x4, refroidisseurs solaires",
   },
   {
     icon: Shield,

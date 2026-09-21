@@ -14,10 +14,11 @@ export default function Products() {
       <div className="mx-auto max-w-6xl px-6">
         <div className="mx-auto max-w-2xl text-center">
           <h2 className="font-display text-3xl font-bold text-text md:text-4xl">
-            Nos véhicules et machines
+            Nos véhicules et équipements
           </h2>
           <p className="mt-4 text-text-muted">
-            Importés directement depuis la Chine. Qualité garantie.
+            Du transport à l&apos;énergie solaire, importés directement
+            depuis la Chine. Qualité garantie.
           </p>
         </div>
 

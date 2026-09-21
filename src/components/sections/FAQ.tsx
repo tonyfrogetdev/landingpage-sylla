@@ -11,14 +11,19 @@ const faqs = [
       "Contactez-moi sur WhatsApp, on discute de vos besoins, je vous envoie un devis sous 24h. Une fois validé, je gère l'importation depuis la Chine jusqu'à la livraison.",
   },
   {
-    question: "Les véhicules viennent directement de Chine ?",
+    question: "Les produits viennent directement de Chine ?",
     answer:
       "Oui, j'importe directement depuis des fabricants chinois certifiés pour garantir la qualité et les meilleurs prix du marché.",
   },
   {
+    question: "Vendez-vous uniquement des véhicules ?",
+    answer:
+      "Non, mon offre s'est élargie : en plus des véhicules (bus, camions, tuktuk, scooters, 4x4), j'importe désormais toutes sortes de machines et équipements, comme des refroidisseurs solaires.",
+  },
+  {
     question: "Quels sont les délais de livraison ?",
     answer:
-      "Les délais varient selon le véhicule et votre localisation. Je vous communique un délai précis lors de votre demande de devis. En général, comptez 4 à 8 semaines.",
+      "Les délais varient selon le produit et votre localisation. Je vous communique un délai précis lors de votre demande de devis. En général, comptez 4 à 8 semaines.",
   },
   {
     question: "Proposez-vous un accompagnement après achat ?",

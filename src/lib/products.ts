@@ -59,4 +59,16 @@ export const products: Product[] = [
       "/images/products/4x4-3.jpg",
     ],
   },
+  {
+    id: 6,
+    name: "Refroidisseur solaire",
+    category: "Énergie & climatisation",
+    description:
+      "Rafraîchisseurs d'air mobiles fonctionnant à l'énergie solaire. Une solution économique et fiable pour rester au frais, même en cas de coupure de courant.",
+    images: [
+      "/images/products/refroidisseur1.jpg",
+      "/images/products/refroidisseur2.jpg",
+      "/images/products/refroidisseur3.jpg",
+    ],
+  },
 ];

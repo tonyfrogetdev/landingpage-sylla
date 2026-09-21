@@ -16,9 +16,9 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://diankosylla.vercel.app"),
-  title: "Dianko Sylla — Importateur de véhicules Chine Afrique | Mamé Transport",
+  title: "Dianko Sylla — Importateur de véhicules & équipements Chine Afrique | Mamé Transport",
   description:
-    "Dianko Sylla, fondateur de Mamé Transport. Importation de véhicules et machines depuis la Chine vers l'Afrique. Bus, camions, tuktuk, scooters, 4x4. Basé en France, livraison au Sénégal.",
+    "Dianko Sylla, fondateur de Mamé Transport. Importation de véhicules et équipements depuis la Chine vers l'Afrique. Bus, camions, tuktuk, scooters, 4x4, refroidisseurs solaires. Basé en France, livraison au Sénégal.",
   keywords: [
     "importateur véhicules chine afrique",
     "mamé transport sénégal",
@@ -29,11 +29,14 @@ export const metadata: Metadata = {
     "véhicules chine rufisque",
     "scooter chine sénégal",
     "import export véhicules afrique",
+    "refroidisseur solaire sénégal",
+    "climatiseur solaire afrique",
+    "import machines chine afrique",
   ],
   openGraph: {
     title: "Dianko Sylla — Mamé Transport",
     description:
-      "Importateur de véhicules et machines depuis la Chine vers l'Afrique",
+      "Importateur de véhicules et équipements depuis la Chine vers l'Afrique",
     url: "https://diankosylla.vercel.app",
     siteName: "Mamé Transport",
     locale: "fr_FR",
@@ -42,7 +45,7 @@ export const metadata: Metadata = {
   twitter: {
     card: "summary_large_image",
     title: "Dianko Sylla — Mamé Transport",
-    description: "Importateur de véhicules depuis la Chine vers l'Afrique",
+    description: "Importateur de véhicules et équipements depuis la Chine vers l'Afrique",
   },
   robots: {
     index: true,
